@@ -4,13 +4,23 @@
 
 電脳伝説さんの[EMUZ80](https://vintagechips.wordpress.com/2022/03/05/emuz80_reference)は、レガシーCPUをmicrochip社のPIC18F47Q43/83/84マイコンで制御しています。<br>
 このマイクロコントローラーを[Raspberry Pi PICO/PICO2](https://www.raspberrypi.com/products/raspberry-pi-pico/)に置き換えて、動かせないかと考えていました。<br>
-PICO/PICO2のIO数（GPIO)は、PIC18F47Q43/83/84に比べてかなり少ないため、個々のレガシーCPU専用のアダプターにする必要があります。私のお気に入りのレガシーCPUは6502なので（Z80も好きです）
+PICO/PICO2のIO数（GPIO)は、PIC18F47Q43/83/84に比べてかなり少ないため、個々のレガシーCPU専用のアダプターにする必要があります。<br>
+私のお気に入りのレガシーCPUは6502なので（Z80も好きです）
 [MEZW65C_RAM](https://github.com/akih-san/MEZW65C_RAM-Rev2.1G)用のアダプターを試作してみました。<br>
+
+試作経緯については、[Ｘ（旧ツイッター）](https://x.com/akih_san/status/2036215330545213747)にアップしていますので、興味のある方はご覧ください。<br>
+
+・回路図
+・部品表
 
 
 # 参考
-RP2350B EMU boardのFWを作成するときに、参考にしたサイトや書籍<br>
+FWを作成するときに、参考にしたサイトや書籍<br>
 
+- [RP2350B EMU board](https://github.com/akih-san/RP2350B-EMU-BOARD-MEZW65C_RAM-Firmware)
+- [MEZW65C_RAM-Rev2.1G](https://github.com/akih-san/MEZW65C_RAM-Rev2.1G)
+- [MEZW65C_RAM-Rev2.0](https://github.com/akih-san/MEZW65C_RAM-Rev2.0)
+- [MEZW65C_RAM-Rev2.1](https://github.com/akih-san/MEZW65C_RAM-Rev2.1)
 - [Raspberry pi pico/pico2 The C/C++ SDK](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html)
 - [Ｃ言語を使った高精度な組み込みシステム　ラズパイPicoベアメタル開発完全ガイド](https://www.amazon.co.jp/%EF%BC%A3%E8%A8%80%E8%AA%9E%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E9%AB%98%E7%B2%BE%E5%BA%A6%E3%81%AA%E7%B5%84%E3%81%BF%E8%BE%BC%E3%81%BF%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0-%E3%83%A9%E3%82%BA%E3%83%91%E3%82%A4Pico%E3%83%99%E3%82%A2%E3%83%A1%E3%82%BF%E3%83%AB%E9%96%8B%E7%99%BA%E5%AE%8C%E5%85%A8%E3%82%AC%E3%82%A4%E3%83%89-%E7%B1%B3%E7%94%B0-%E8%81%A1-ebook/dp/B0FPDVJ626?ref_=ast_author_mpb)
 - PIOつくし（準備号）「Norihiro Kumagai氏](https://github.com/tendai22)
