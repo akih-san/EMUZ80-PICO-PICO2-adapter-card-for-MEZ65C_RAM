@@ -2,6 +2,12 @@
 
 工事中（Under Construction）<br>
 
+電脳伝説さんの[EMUZ80](https://vintagechips.wordpress.com/2022/03/05/emuz80_reference)は、レガシーCPUをmicrochip社のPIC18F47Q43/83/84マイコンで制御しています。<br>
+今回、このマイクロコントローラーを[Raspberry Pi PICO/PICO2](https://www.raspberrypi.com/products/raspberry-pi-pico/)に置き換えて、動かせないかと考えていました。<br>
+PICO/PICO2のIO数（GPIO)は、PIC18F47Q43/83/84に比べてかなり少ないため、個々のレガシーCPU専用のアダプターにする必要があります。私のお気に入りのレガシーCPUは6502なので（Z80も好きです）
+[MEZW65C_RAM](https://github.com/akih-san/MEZW65C_RAM-Rev2.1G)用のアダプターを試作してみました。<br>
+
+
 # 参考
 RP2350B EMU boardのFWを作成するときに、参考にしたサイトや書籍<br>
 
