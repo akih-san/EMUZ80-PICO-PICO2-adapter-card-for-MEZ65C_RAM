@@ -1,7 +1,5 @@
 # EMUZ80 PICO/PICO2 adapter card for MEZ65C_RAM
 
-工事中（Under Construction）<br>
-
 ![](photo/EMUZ80_picoアダプタ.png)
 
 電脳伝説さんの[EMUZ80](https://vintagechips.wordpress.com/2022/03/05/emuz80_reference)は、レガシーCPUをmicrochip社のPIC18F47Q43/83/84マイコンで制御しています。<br>
